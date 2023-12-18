@@ -396,3 +396,12 @@ html{
         margin-left: 3rem;
     }
 }
+@media only screen and ((max-width:430px) or (max-height:555px)){
+    .spoke{
+        height: 20vh;
+    }
+    .sphere-wrapper{
+        width: 40vh;
+        height: 35vh;
+    }
+}
