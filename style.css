@@ -129,7 +129,7 @@ html{
 }
 #picture{
     grid-area: pic;
-    width: 21.5rem; 
+    width: 19.5rem; 
     box-sizing: border-box;          
 }
 #description{
@@ -158,7 +158,7 @@ html{
     padding: 2px 9px;
 }
 #pp{
-    width: 160px;
+    width: 7rem;
     border: 2px solid gold;
     border-radius: 150px;
 }
@@ -168,22 +168,25 @@ html{
 }
 #img{
     position: fixed;
-    top: 240px;
-    left: 5.75rem;
-    width: 13.5rem;
+    top: 24.3vh;
+    left: 3.75rem;
+    width: 15.5rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
 }
 #quote{
     font-style: italic;
-    margin-left: -2.5rem;
+    margin-left: 0rem;
 }
 #x{
     padding-right: 9px;
 }
 #y{
-    margin-left: -15px;
+    margin-left: 0;
 }
 .star{
     position: fixed;
@@ -290,7 +293,7 @@ html{
     animation-delay: 2.75s;
     animation-duration: 2.25s;
 }
-@media only screen and (max-width:670px){
+@media only screen and ((max-width:670px) or (max-height:375px)){
     .content{
         position: relative;
         display: flex;
@@ -306,7 +309,7 @@ html{
     #img{
         position: relative;
         top: 0;
-        /* left: ; */
+        left: 2.75rem;
     }
     #description p{
         padding: 0rem 1.4rem;
