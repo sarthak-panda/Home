@@ -108,7 +108,7 @@ html{
     color: gold;
 }
 .content::before{
-    background: url('bg2.jpg') no-repeat center center/cover;
+    background: url('./bg2.jpg') no-repeat center center/cover;
     content: "";
     position: fixed;
     top: 0;
